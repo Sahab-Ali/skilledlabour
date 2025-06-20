@@ -32,7 +32,7 @@ export default function AuthStack() {
         component={CustomerHomeScreen}
         // options={{ headerShown: true, title: "SkilledLabour" }} // Show header
         options={{
-          headerShown: true,
+          headerShown: false,
           title: "SkilledLabour",
           headerStyle: { backgroundColor: "#fff" },
           headerTitleStyle: { color: "#FF7A00", fontWeight: "bold" },
